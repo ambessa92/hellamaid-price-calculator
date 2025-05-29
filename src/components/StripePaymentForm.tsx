@@ -12,7 +12,7 @@ import {
 // recreating the Stripe object on every render.
 const getStripePublishableKey = () => {
   const key = import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY;
-  if (!key || key.includes('your_live_publishable_key_here')) {
+  if (!key || key.includes('your_live_publishable_key_here') || key.includes('your_actual_key_here')) {
     console.error('Stripe publishable key not found or is placeholder. Please set VITE_STRIPE_PUBLISHABLE_KEY in your environment variables.');
     return null;
   }

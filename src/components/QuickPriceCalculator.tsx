@@ -212,7 +212,7 @@ Thank you for choosing our cleaning service!`);
 
           <div className="mb-3">
             <label className="block text-sm font-medium mb-1">
-              Your Name
+              👤 Your Name
             </label>
             <input
               type="text"
@@ -227,7 +227,7 @@ Thank you for choosing our cleaning service!`);
 
           <div className="mb-3">
             <label className="block text-sm font-medium mb-1">
-              Email Address
+              📧 Email Address
             </label>
             <input
               type="email"
@@ -242,7 +242,7 @@ Thank you for choosing our cleaning service!`);
 
           <div>
             <label className="block text-sm font-medium mb-1">
-              Phone Number
+              📱 Phone Number
             </label>
             <input
               type="tel"
@@ -345,7 +345,7 @@ Thank you for choosing our cleaning service!`);
 
           <div className="mb-3">
             <label className="block text-sm font-medium mb-1">
-              Preferred Date
+              📅 Preferred Date
             </label>
             <input
               type="date"
@@ -360,7 +360,7 @@ Thank you for choosing our cleaning service!`);
 
           <div>
             <label className="block text-sm font-medium mb-1">
-              Preferred Time
+              ⏰ Preferred Time
             </label>
             <select
               name="preferredTime"
