@@ -6,7 +6,7 @@
   publish = "dist"
 
 [build.environment]
-  VITE_STRIPE_PUBLISHABLE_KEY = ""
+  VITE_STRIPE_PUBLISHABLE_KEY = "pk_test_51QCF8vBBdUMc2M2MOewWWbdnlDLFdFJq6Dd3KlUhVLHAOWBH5PJ7kdOLGN3p7L3HDFdLlVlCdGKFGTJhF6vYOcV200yHONK8Ni"
 
 [functions]
   directory = "netlify/functions"
